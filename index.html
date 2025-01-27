@@ -8,14 +8,12 @@
     <title>Agency</title>
 </head>
 <body>
-    <div class="bg-white-100 text-grey-800">
+    <div class="bg-white-800 text-grey-800 ">
         <!-- navbar -->
-        <header class=" bg-transparent text-gray ">
+        <header class=" bg-blue-500 text-gray ">
             <nav class=" container max-w-screen-xl mx-auto px-4 flex justify-between items-center fixed">
                 <a href="#" class="text-2xl font-bold"> Agency</a>
-                <button class="text-2xl md:hidden focus:outline-none ">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
+                
                 <ul class="hidden md:flex space-x-6">
                     <li><a href="#" class="hover:text-gray-200">About us</a> </li>
                     <li><a href="#" class="hover:text-gray-200">Features</a></li>
@@ -23,14 +21,18 @@
                     <li><a href="#" class="hover:text-gray-200"> Support</a></li>
 
                 </ul>
-                <button  type="submit" class="py-2 px-4 bg-black-700 rounded-md text-white-800 font-semibold hover">Get Started</button>
+                <button  type="submit" class="py-2 px-4 bg-blue-700 rounded-md text-white font-semibold hover">Get Started</button>
+                <button class="text-2xl md:hidden focus:outline-none ">
+                    <i class="fa-solid fa-bars"></i>
+                </button
 
+                
             </nav>
 
 
 
         </header>
-        <main class="container max-screen-xl mx auto px-4 py-8">
+        <main class="container max-screen-xl mx auto px-4 py-20 ">
             <section class="bg-white-400">
                 <div class="grid grid-cols-1 md: grid-cols-1 xl:grid-cols-2">
                     <div> 
@@ -252,11 +254,11 @@
             </section>
 
         </main>
-        <footer class="  mx-auto px-4 flex justify-between items-center fixed">
-            <div>
+        <footer class="bg-linear-to-r" >
+            <div class="flex flex-colunm-1 mx-5 gap-20 py-6 shadow-md px-4 md:flex-colunm-4 ">
                 <div>
-                  <h1>Agency</h1> 
-                  <p>Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore.</p> 
+                  <h1 class="text-2xl text-black-700 font-bold">Agency</h1> 
+                  <p class="text-justifiedcenter">Lorem ipsum dolor amet consectetur adipiscing <br> elit do eiusmod tempor incididunt ut labore et dolore.</p> 
                   <ul class="flex space-x-4">
         <li><a href="#" class="hover:text-sky-500"><i class="fa-brands fa-facebook"></i></a></li>
         <li><a href="#" class="hover:text-sky-500"><i class="fa-brands fa-x-twitter"></i></a></li>
@@ -265,25 +267,32 @@
                   </ul>
                 </div>
                 <div>
-                    <h1> Company</h1>
+                    <h1 class="font-bold"> Company</h1>
                     <ul>
-                        <li>About company </li>
-                        <li>Company services </li>
-                        <li>Job opportunities
-                        </li>
-                        <li> Creative people</li>
-                        <li> Contact US</li>
+                        <li><a href="#" class="hover:text-blue-600">About Company </a></li>
+                        <li> <a href="#" class="hover:text-blue-600">Job Opportunities </a></li>
+                        <li> <a href="#" class="hover:text-blue-600">Creative People</a></li>
+                        <li><a href="#" class="hover:text-blue-600"> Contact us</a></li>
+                        
                     </ul>
                 </div>
                 <div>
-                    <h1> Customer</h1>
-                    <ul><li> Client support</li>
-                    <li> Latest news</li>
-                    <li>Company S</li>
-                    <li></li>
-                    <li></li></ul>
+                    <h1 class="font-bold"> Customer</h1>
+                    <ul>
+                        <li><a href="#" class="hover:text-blue-600">Client support </a></li>
+                        <li> <a href="#"class="hover:text-blue-600"> Latest News</a></li>
+                        <li> <a href="#"class="hover:text-blue-600"></a>Who we are</li>
+                        
+                    </ul>
                 </div>
-                <div></div>
+                <div>
+                    <h1 class="font-bold"> Subscribe to Our NEWS letter</h1>
+                    <form class>
+                        <input type="text" name="Enter email " id=" Email " class="flex w-40 p-2 border border-gray-300 rounded-md ">
+                        <button type="submit" class="bg-blue-500 text-white rounded-md py-2 px-4"> Subscribe</button>
+                    </form>
+                    <p>  copyright:&copy2025</p>
+                </div>
             </div>
 
         </footer>
